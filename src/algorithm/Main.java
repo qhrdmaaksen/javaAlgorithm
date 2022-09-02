@@ -12,6 +12,21 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) throws IOException {
+				/*//1024 단어 1개 입력받아 나누어 출력하기
+		Scanner sc = new Scanner(System.in);
+		String word = sc.nextLine();
+		for (int i = 0; i< word.length(); i++) {
+			System.out.println("\'"+word.charAt(i)+"\'");*//*한글자씩i만큼출력*//*
+		}*/
+
+		/*//1023 실수 1개 입력받아 부분별로 출력하기
+		Scanner sc = new Scanner(System.in);
+		String value = Double.toString(sc.nextDouble());
+		// 문자 그대로 특수문자를 구분자로 사용하고 싶을 경우에는 이스케이프 문자인 "\\"를 앞에 붙여야함
+		String[] data = value.split("\\.");
+		sc.close();
+		System.out.printf("%s\n%s",data[0],data[1]);*/
+
 		/*//1022 문장 1개 입력받아 그대로 출력하기
 		String data = "";
 		Scanner sc = new Scanner(System.in);
